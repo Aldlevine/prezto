@@ -1,4 +1,5 @@
 My personal fork of Prezto with minor customizations
+====================================================
 
 Prezto — Instantly Awesome Zsh
 ==============================
