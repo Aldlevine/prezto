@@ -24,10 +24,9 @@ function prompt_aldlevine_setup {
     'rprompt' '%C%D'
 
   # Define prompts.
-  PROMPT='%~${(e)git_info[prompt]}$ '
+  PROMPT='%F{magenta}[%~]%f${(e)git_info[prompt]} '
   RPROMPT=''
 
-  zle && zle reset-prompt
 }
 
 prompt_aldlevine_setup "$@"
