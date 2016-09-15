@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# browser
+export BROWSER=chromium
+
 # user path
 export PATH="$PATH:$HOME/bin"
 
